@@ -2,6 +2,7 @@
 .desktop-nav.mobile-open{display:flex!important;position:absolute;top:74px;left:0;right:0;margin:0;padding:18px 6vw;flex-direction:column;gap:18px;background:var(--paper);border-bottom:1px solid var(--line);box-shadow:0 16px 30px rgba(19,43,63,.08)}
 .site-header{position:fixed;left:0;right:0;top:0;width:100%;z-index:20}.brand-logo{width:163px;height:auto;max-height:50px;object-fit:contain;object-position:left center}.brand-name{display:none}.site-header .brand-logo{filter:invert(1)}.site-footer .brand-logo{filter:invert(1)}
 @media(max-width:900px){.site-header{position:fixed!important}.brand-logo{width:163px;max-height:50px}}
+.site-header{position:fixed!important;top:0!important;left:0!important;right:0!important;width:100%!important;z-index:999!important}
 
 .logo-strip{background:var(--paper);border-bottom:1px solid var(--line);overflow:hidden;padding:27px 0 30px}.logo-strip-label{text-align:center;text-transform:uppercase;letter-spacing:.16em;color:var(--muted);font-size:10px;font-weight:800;margin-bottom:22px}.logo-track{display:flex;width:max-content;animation:logo-slide 28s linear infinite}.fake-logo{height:78px;min-width:220px;padding:0 38px;border-right:1px solid var(--line);display:flex;align-items:center;justify-content:center;gap:10px;font:800 17px Manrope;letter-spacing:-.04em;color:var(--ink);white-space:nowrap}.fake-logo i{font-style:normal;font-size:23px;color:var(--blue)}@keyframes logo-slide{from{transform:translateX(0)}to{transform:translateX(-50%)}}.logo-strip:hover .logo-track{animation-play-state:paused}
 
