@@ -34,3 +34,4 @@
 .logo-strip{background-image:linear-gradient(180deg,rgba(246,245,240,0) 0%,rgba(246,245,240,.08) 24%,rgba(246,245,240,.48) 58%,#f6f5f0 100%),linear-gradient(90deg,rgba(246,245,240,.92) 0%,rgba(246,245,240,.58) 34%,rgba(246,245,240,.08) 72%),linear-gradient(rgba(19,43,63,.18),rgba(19,43,63,.18)),url('hero.png');background-color:#f6f5f0}
 .logo-strip{background-image:linear-gradient(180deg,rgba(246,245,240,0) 0%,rgba(246,245,240,.16) 28%,rgba(246,245,240,.62) 68%,#f6f5f0 100%);background-color:transparent;background-size:100% 100%;background-position:center;background-repeat:no-repeat}
 .logo-strip{padding-top:52px}.fake-logo{filter:grayscale(1);opacity:.48;color:#41515a}.fake-logo i{color:#52636a}.logo-strip-label{display:none}
+.hero-float{bottom:220px}@media(max-width:900px){.hero-float{bottom:245px}}@media(max-width:580px){.hero-float{bottom:220px}}
