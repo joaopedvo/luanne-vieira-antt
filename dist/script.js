@@ -1,1 +1,2 @@
 const toggle=document.querySelector('.menu-toggle');const nav=document.querySelector('.desktop-nav');toggle?.addEventListener('click',()=>{nav?.classList.toggle('mobile-open')});document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',()=>nav?.classList.remove('mobile-open')));
+document.querySelectorAll('.faq-list details').forEach(d=>d.addEventListener('toggle',()=>{const i=d.querySelector('.faq-icon');if(i)i.textContent=d.open?'−':'+'}));
