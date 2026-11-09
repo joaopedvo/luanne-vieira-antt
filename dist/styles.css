@@ -37,3 +37,4 @@
 .hero-float{bottom:220px}@media(max-width:900px){.hero-float{bottom:245px}}@media(max-width:580px){.hero-float{bottom:220px}}
 .hero-actions{position:relative;z-index:8;transform:translateY(-135px)}@media(max-width:900px){.hero-actions{transform:translateY(-100px)}}@media(max-width:580px){.hero-actions{transform:translateY(-80px)}}
 .hero-actions{transform:none}.logo-strip{margin-top:-70px}@media(max-width:900px){.hero-actions{transform:none}.logo-strip{margin-top:-70px}}@media(max-width:580px){.hero-actions{transform:none}.logo-strip{margin-top:-55px}}
+.hero{border-radius:0 0 56px 56px;overflow:hidden}.logo-strip{margin-top:0;background:#fff;background-image:none;border-radius:0 0 24px 24px;padding-top:30px;padding-bottom:38px}.logo-strip:before{display:none}.logo-strip + .intro-section{padding-top:clamp(90px,10vw,150px)}
