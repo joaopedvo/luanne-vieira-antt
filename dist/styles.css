@@ -36,3 +36,4 @@
 .logo-strip{padding-top:52px}.fake-logo{filter:grayscale(1);opacity:.48;color:#41515a}.fake-logo i{color:#52636a}.logo-strip-label{display:none}
 .hero-float{bottom:220px}@media(max-width:900px){.hero-float{bottom:245px}}@media(max-width:580px){.hero-float{bottom:220px}}
 .hero-actions{position:relative;z-index:8;transform:translateY(-135px)}@media(max-width:900px){.hero-actions{transform:translateY(-100px)}}@media(max-width:580px){.hero-actions{transform:translateY(-80px)}}
+.hero-actions{transform:none}.logo-strip{margin-top:-70px}@media(max-width:900px){.hero-actions{transform:none}.logo-strip{margin-top:-70px}}@media(max-width:580px){.hero-actions{transform:none}.logo-strip{margin-top:-55px}}
